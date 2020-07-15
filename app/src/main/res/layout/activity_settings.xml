@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Settings">
+    tools:context=".SettingsActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/Appbar_Settings"
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/settings_profile_image"
         android:layout_width="130dp"
         android:layout_height="130dp"
@@ -71,7 +71,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-       android:layout_centerHorizontal="true"
+        android:layout_centerHorizontal="true"
         />
 
     <EditText

@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:text="Add new item"
         android:layout_centerHorizontal="true"
-        android:textSize="25sp"
+        android:textSize="18sp"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/button1"/>
     <LinearLayout
         android:id="@+id/Catagory_linear_layout_1"
@@ -23,28 +23,28 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/add_New_catagory"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="25dp"
         android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/t_shirt"
             android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_height="60dp"
             android:src="@drawable/tshirts"/>
         <ImageView
             android:id="@+id/sports_t_shirt"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_width="78dp"
+            android:layout_height="65dp"
             android:src="@drawable/sports"/>
         <ImageView
             android:id="@+id/sweather"
             android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_height="65dp"
             android:src="@drawable/sweather"/>
         <ImageView
             android:id="@+id/female_dresses"
             android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_height="65dp"
             android:src="@drawable/female_dresses"/>
 
 
@@ -56,28 +56,28 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/Catagory_linear_layout_1"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="25dp"
         android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/glasses"
             android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_height="60dp"
             android:src="@drawable/glasses"/>
         <ImageView
             android:id="@+id/pursses"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
             android:src="@drawable/purses_bags"/>
         <ImageView
             android:id="@+id/hat"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
             android:src="@drawable/hats"/>
         <ImageView
             android:id="@+id/shoeses"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
             android:src="@drawable/shoess"/>
 
 
@@ -88,23 +88,23 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/Catagory_linear_layout_2"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="25dp"
         android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/headphoness"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
             android:src="@drawable/headphoness"/>
         <ImageView
             android:id="@+id/laptops"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
             android:src="@drawable/laptops"/>
         <ImageView
             android:id="@+id/watches"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
             android:src="@drawable/watches"/>
         <ImageView
             android:id="@+id/mobile"
@@ -126,19 +126,22 @@
     android:text="Check New Orders"
     android:textColor="@android:color/white"
     android:textAllCaps="false"
-    android:textSize="20dp"/>
+    android:textSize="18sp"/>
 
     <Button
         android:id="@+id/admin_logout_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
+     android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/button1"
         android:text="Logout"
         android:textColor="@android:color/white"
         android:textAllCaps="false"
-        android:textSize="20dp"/>
+        android:textSize="18sp"/>
 
 
 </RelativeLayout>

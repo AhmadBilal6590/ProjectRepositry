@@ -40,7 +40,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:text="Product Quantity"
-          android:layout_centerHorizontal="true"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:layout_below="@id/cart_product_name"
             android:textColor="@android:color/white"

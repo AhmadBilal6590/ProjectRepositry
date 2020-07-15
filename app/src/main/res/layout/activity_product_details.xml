@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProductData">
+    tools:context=".ProductDetailsActivity">
 
 
     <ImageView
@@ -48,6 +47,7 @@
         android:textColor="@android:color/black"/>
 
     <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/product_price_number_BTN"
         android:layout_width="wrap_content"
         android:elevation="6dp"
         app:textSize="16dp"
@@ -59,19 +59,50 @@
         android:layout_height="wrap_content">
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+<!--    <Button-->
+<!--        android:id="@+id/add_product_to_cart_btn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/product_price_number_BTN"-->
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:layout_marginBottom="15dp"-->
+
+
+<!--        android:background="@drawable/button1"-->
+<!--        android:padding="20dp"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="18sp"-->
+<!--        android:text="Cart"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        />-->
+    <Button
         android:id="@+id/add_product_to_cart_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="6dp"
-        android:backgroundTint="@android:color/white"
-        android:src="@drawable/nav_cart"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:background="@drawable/button1"
+        android:textAllCaps="false"
+        android:text="Cart"
+        android:textColor="@android:color/white"
         android:layout_margin="15dp"
 
-        />
+        android:textSize="20sp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/add_product_to_cart_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:elevation="6dp"-->
+<!--        android:src="@drawable/nav_cart"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_margin="15dp"-->
+
+<!--        />-->
 
 
 </RelativeLayout>

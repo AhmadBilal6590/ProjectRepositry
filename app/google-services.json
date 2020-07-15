@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "581135870232",
+    "firebase_url": "https://ahmad-9f58d.firebaseio.com",
+    "project_id": "ahmad-9f58d",
+    "storage_bucket": "ahmad-9f58d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581135870232:android:68b176b5961cacd14ad66d",
+        "android_client_info": {
+          "package_name": "com.example.ecomress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581135870232-13p4p76neg2furc29ul2vuoo5l1pa2tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecomress",
+            "certificate_hash": "d450504cb4102e2c46cdbd38fbcb935e64ccd35b"
+          }
+        },
+        {
+          "client_id": "581135870232-j13eqtfuti01m2e4o8qjqlvae06kc7rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3GY6GNY-HGYDe5dQoZZmttAKZ8WG-4l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581135870232-j13eqtfuti01m2e4o8qjqlvae06kc7rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

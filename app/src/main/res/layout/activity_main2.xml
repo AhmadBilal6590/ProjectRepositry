@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CartActivity">
+    tools:context=".Main2Activity">
 
     <RelativeLayout
         android:id="@+id/Relative_layout_cart_screen_1"
@@ -21,7 +21,7 @@
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:gravity="center"
-/>
+            />
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/Cart_list"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/next_process_btn"
-></androidx.recyclerview.widget.RecyclerView>
+        ></androidx.recyclerview.widget.RecyclerView>
     <Button
         android:id="@+id/next_process_btn"
         android:layout_width="match_parent"
